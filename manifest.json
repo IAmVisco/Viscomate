@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+
+    "name": "Viscomate",
+    "description": "Your favourite viscoin miner",
+    "version": "0.1.0",
+
+    "permissions": [
+        "*://game.granbluefantasy.jp/*",
+        "*://gbf.game.mbga.jp/*"
+        //"storage",
+        //"tabs",
+        //"activeTab"
+    ],
+
+    "devtools_page": "src/devtools/devtools.html"
+}

@@ -1,0 +1,2 @@
+# Viscomate
+A viscoin miner
