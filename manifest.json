@@ -3,7 +3,7 @@
 
     "name": "Viscomate",
     "description": "Your favourite viscoin miner",
-    "version": "0.1.0",
+    "version": "0.1.1",
 
     "permissions": [
         "*://game.granbluefantasy.jp/*",
@@ -12,6 +12,17 @@
         //"tabs",
         //"activeTab"
     ],
-
+    "content_scripts": [
+        {
+            "matches": ["*://game.granbluefantasy.jp/*", "*://gbf.game.mbga.jp/*"],
+            "js": [
+                "src/js/inject.js"
+            ],
+            "css": [
+                "src/css/char-click-ougi-skip.css"
+            ],
+            "run_at": "document_start"
+        }
+    ],
     "devtools_page": "src/devtools/devtools.html"
 }
