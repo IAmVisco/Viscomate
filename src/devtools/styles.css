@@ -1,0 +1,12 @@
+body {
+    margin: 0;
+    background-color: #2C2F33;
+}
+
+.header {
+    margin-left: 30px
+}
+
+.header h1 {
+    color: #ededed;
+}

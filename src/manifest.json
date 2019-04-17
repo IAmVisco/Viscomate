@@ -6,6 +6,8 @@
     "version": "0.1.1",
 
     "permissions": [
+        "tabs",
+        "clipboardWrite",
         "*://game.granbluefantasy.jp/*",
         "*://gbf.game.mbga.jp/*"
         //"storage",
@@ -16,13 +18,13 @@
         {
             "matches": ["*://game.granbluefantasy.jp/*", "*://gbf.game.mbga.jp/*"],
             "js": [
-                "src/js/inject.js"
+                "js/inject.js"
             ],
             "css": [
-                // "src/css/char-click-ougi-skip.css" // not safe prolly
+                // "css/char-click-ougi-skip.css" // not safe prolly
             ],
             "run_at": "document_start"
         }
     ],
-    "devtools_page": "src/devtools/devtools.html"
+    "devtools_page": "devtools/devtools.html"
 }
