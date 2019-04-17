@@ -19,7 +19,7 @@
                 "src/js/inject.js"
             ],
             "css": [
-                "src/css/char-click-ougi-skip.css"
+                // "src/css/char-click-ougi-skip.css" // not safe prolly
             ],
             "run_at": "document_start"
         }
